@@ -35,7 +35,7 @@
 #define		CH450_I2C_MASK		0x3E			// CH450的高字节命令掩码
 
 static const char URL[] = "ntp.ntsc.ac.cn";     //NTP时间服务器
-static const char* URL2 = "http://apis.tianapi.com/ncov/index?key=f72495e1ce4e7d4ee939822c870ad774";     //天气信息API接口，用户key已删除
+static const char* URL2 = "http://apis.tianapi.com/ncov/index?key=";     //天气信息API接口，用户key已删除
 
 const int timezone = 8;
 unsigned int localPort = 8888;
